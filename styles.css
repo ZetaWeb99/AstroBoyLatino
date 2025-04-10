@@ -1,0 +1,325 @@
+body {
+    margin: 0;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+h1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    font-size: 50px;
+    color: white;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 10px;
+}
+
+h2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    font-size: 40px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+}
+
+h3 {
+    color: #ffffff;
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 
+    2px 2px 4px rgba(0, 0, 0, 0.6),   /* sombra inferior derecha */
+    -2px -2px 4px rgba(0, 0, 0, 0.6),  /* sombra superior izquierda */
+    2px -2px 4px rgba(0, 0, 0, 0.6),   /* sombra superior derecha */
+    -2px 2px 4px rgba(0, 0, 0, 0.6);   /* sombra inferior izquierda */
+    font-size: 20px;
+}
+
+
+h4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    font-size: 40px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+    text-shadow: 
+    2px 2px 4px rgba(0, 0, 0, 0.6),   /* sombra inferior derecha */
+    -2px -2px 4px rgba(0, 0, 0, 0.6),  /* sombra superior izquierda */
+    2px -2px 4px rgba(0, 0, 0, 0.6),   /* sombra superior derecha */
+    -2px 2px 4px rgba(0, 0, 0, 0.6);   /* sombra inferior izquierda */
+    font-size: 15px;
+}
+
+footer {
+    background-color: black;
+}
+
+.las_redes {
+    display: flex;
+}
+
+.todas_las_redes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes {
+    gap: 8px;
+}
+
+
+.lista1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    padding: 30px 80px 30px 80px;
+    list-style: none;
+    gap: 25px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 0;
+
+}
+
+.titulo1 {
+    margin-top: 650px;
+}
+
+.titulo2 {
+    backdrop-filter: blur(8px); 
+    padding-top: 60px;
+    text-shadow: 
+    2px 2px 4px rgba(0, 0, 0, 0.6),   /* sombra inferior derecha */
+    -2px -2px 4px rgba(0, 0, 0, 0.6),  /* sombra superior izquierda */
+    2px -2px 4px rgba(0, 0, 0, 0.6),   /* sombra superior derecha */
+    -2px 2px 4px rgba(0, 0, 0, 0.6);   /* sombra inferior izquierda */
+}
+
+.portada1 {
+    background-image: url("img/PortadaInicio1.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 980px;
+}
+
+.portada2 {
+    width: 100%;
+    height: 1150px;
+    background-image: url("img/PortadaInicio2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.opciones1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    backdrop-filter: blur(8px); 
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: antiquewhite;
+}
+
+.opcion1{
+    height: 215px;
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    text-align: center;
+    transition: all 0.3s ease;
+    transform: scale(1);
+    border-radius: 12px;
+}
+
+.opcion1 h3,
+.opcion1 h4 {
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.opcion1:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    transform: scale(1.02); /* ligera ampliación */
+    background-color: #2084e554;
+    border-radius: 12px;
+
+}
+
+.opcion1:hover h3,
+.opcion1:hover h4 {
+  color: rgb(255, 72, 0);
+}
+
+.img_opcion1 {
+    width: 120px;
+    height: 120px;
+    background-image: url('https://2788841bb6.cbaul-cdnwnd.com/76672681230ebf7d4fb1265e6a09136e/200000595-600796007c/Astro_Boy_v01_p001-9.webp?ph=2788841bb6');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img_opcion2 {
+    width: 120px;
+    height: 120px;
+    background-image: url('https://2788841bb6.cbaul-cdnwnd.com/76672681230ebf7d4fb1265e6a09136e/200000604-2a3702a373/700/13295104_1771856369715572_733707206_n.webp?ph=2788841bb6');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img_opcion3 {
+    width: 120px;
+    height: 120px;
+    background-image: url('https://2788841bb6.cbaul-cdnwnd.com/76672681230ebf7d4fb1265e6a09136e/200000593-95d3b95d3f/logo%20astro%20boy%202003.webp?ph=2788841bb6');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img_opcion4 {
+    width: 120px;
+    height: 120px;
+    background-image: url('https://2788841bb6.cbaul-cdnwnd.com/76672681230ebf7d4fb1265e6a09136e/200000592-945a8945ab/13318555_1771857369715472_401668545_n.webp?ph=2788841bb6');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img_opcion5 {
+    width: 120px;
+    height: 120px;
+    background-image: url('https://2788841bb6.cbaul-cdnwnd.com/76672681230ebf7d4fb1265e6a09136e/200000607-f1ac2f1ac6/450/logo-2021071219112026900.webp?ph=2788841bb6');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img_opcion6 {
+    width: 120px;
+    height: 120px;
+    background-image: url('https://2788841bb6.cbaul-cdnwnd.com/76672681230ebf7d4fb1265e6a09136e/200000589-a0035a0038/450/289905754_105323288898019_3094127614768734617_n.webp?ph=2788841bb6');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img_opcion7 {
+    width: 120px;
+    height: 120px;
+    background-image: url('https://2788841bb6.cbaul-cdnwnd.com/76672681230ebf7d4fb1265e6a09136e/200000767-9c85a9c85d/13282454_1771846429716566_107795732_o-6.webp?ph=2788841bb6');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img_opcion8 {
+    width: 120px;
+    height: 120px;
+    background-image: url('https://2788841bb6.cbaul-cdnwnd.com/76672681230ebf7d4fb1265e6a09136e/200000597-b6b27b6b2a/450/13293250_1771855206382355_144678678_n.webp?ph=2788841bb6');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img_opcion9 {
+    width: 120px;
+    height: 120px;
+    background-image: url('https://2788841bb6.cbaul-cdnwnd.com/76672681230ebf7d4fb1265e6a09136e/200000596-950d5950d8/700/13293245_1771846246383251_1150274378_n.webp?ph=2788841bb6');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img_opcion10 {
+    width: 120px;
+    height: 120px;
+    background-image: url('https://2788841bb6.cbaul-cdnwnd.com/76672681230ebf7d4fb1265e6a09136e/200000606-9a8869a889/450/13285838_1771858473048695_1009424506_n.webp?ph=2788841bb6');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img_opcion11 {
+    width: 120px;
+    height: 120px;
+    background-image: url('https://2788841bb6.cbaul-cdnwnd.com/76672681230ebf7d4fb1265e6a09136e/200000015-57ec358e5c/450/11403868_900840496642617_1462977544_n.gif?ph=2788841bb6');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img_opcion12 {
+    width: 120px;
+    height: 120px;
+    background-image: url('https://2788841bb6.cbaul-cdnwnd.com/76672681230ebf7d4fb1265e6a09136e/200000603-934d5934d9/IMG-0052.webp?ph=2788841bb6');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/*episodios 2003*/
+
+.portada1-serie-2003 {
+    background-color: black;
+    height: 280px;
+}
+
+.titulo1-serie-2003 {
+    margin-top: 50px;
+}
+
+.portada2-serie-2003 {
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
