@@ -110,7 +110,7 @@ footer {
 }
 
 .portada1 {
-    background-image: url("img/PortadaInicio1.webp");
+    background-image: url("PortadaInicio1.webp");
     background-size: cover;
     background-repeat: no-repeat;
     height: 980px;
@@ -119,7 +119,7 @@ footer {
 .portada2 {
     width: 100%;
     height: 1150px;
-    background-image: url("img/PortadaInicio2.jpg");
+    background-image: url("PortadaInicio2.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
