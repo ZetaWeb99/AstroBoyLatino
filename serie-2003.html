@@ -1,0 +1,1530 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>AstroBoyLatino-Series_y_mas</title>
+</head>
+    <style>
+
+a {color: #fff; text-decoration: none;}
+
+
+/* Rainbow glow button */
+.rainbow-btn {
+   color: #fff;
+   cursor: pointer;
+   position: relative;
+   padding: 10px 20px;
+   text-decoration: none;
+   border-radius: 8px;
+   transition: .5s;
+   background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+   background-size: 400%;
+   animation: rainbow 8s linear infinite;
+   align-items: center;
+}
+@keyframes rainbow {
+   0% { background-position: 0%; }
+   100% { background-position: 400%; }
+}
+.rainbow-btn:before {
+   content: '';
+   position: absolute;
+   top: -5px;
+   left: -5px;
+   right: -5px;
+   bottom: -5px;
+   z-index: -1;
+   background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+   background-size: 400%;
+   border-radius: 8px;
+   opacity: .5;
+   transition: 0.5s;
+   animation: rainbow 8s linear infinite;
+   filter: blur(5px);
+}
+.rainbow-btn:hover:before {
+   filter: blur(20px);
+   opacity: 1;
+}
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Roboto, sans-serif; 
+        }
+        
+        body {
+            display: flex;
+            flex-direction: column; 
+            justify-content: center;
+            background-color: #31333E;
+            scroll-behavior:smooth;
+        }
+        
+        h2{
+            color: #00fff7;;
+            padding-left: 30px;
+        }
+        
+        section {
+            width: 100%;
+            overflow-y: hidden;
+            overflow-x: scroll;
+            padding: 0 30px;
+        }
+        
+        .container{
+            white-space: nowrap;
+            margin: 50px 0;
+        }
+        
+        .card{
+            display: inline-block;
+            position: relative;
+            border-radius: 20px;
+            overflow: hidden;
+            margin-right: 20px;
+            transform-origin: center left;
+            transition: 600ms;
+        }
+        
+        .container:hover .card{
+            opacity: 0.5;
+            
+        }
+        
+        .container:hover .card:hover{
+            transform: scale(1.3);
+            opacity: 1;
+        }
+        
+        .card:hover ~.card{
+            transform: translate3d(90px, 0, 0);
+        }
+        
+        .card:last-child{
+            transform-origin: center right; 
+        }
+        
+        /*Card image details*/
+        .card_image {
+            width: 290px;
+            height: 290px;
+            overflow: hidden;
+        }
+        
+        img{
+            width: 300px;
+            height: 350px; 
+            object-fit: cover;
+        }
+        
+        /*Card text details*/
+        .card_content {
+            background: linear-gradient(to top, rgba(0,0,0) 0%, rgba(0,0,0,.1) 100%);
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            color: white;
+            padding: 20px;
+            opacity: 0;
+            transition: 450ms opacity;
+            cursor: pointer;
+            padding-bottom: 30px;
+            align-items: center;
+            flex-wrap: nowrap;
+            gap: 8px;
+        }
+        
+        .card_content:hover{
+            opacity: 1;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        
+        .card-icons{
+            margin-bottom: 20px;
+        }
+        
+        .card-icons svg {
+            fill: #71B5B2;
+        }
+        
+        .card-title{
+            margin-bottom: 10px
+        }
+        
+        /*Scroll bar detail*/
+        section::-webkit-scrollbar{
+            background: #ff0000;
+            border-radius: 20px;
+        }
+        
+        section::-webkit-scrollbar-thumb{
+            background: #0062ff;
+            border-radius: 20px;
+            border: #ff0000 solid 3px;
+        }
+
+        .serie_1980 {
+            height: 420px;
+        }
+
+        footer {
+        background-color: black;
+        }
+
+        .las_redes {
+            display: flex;
+        }
+
+        .todas_las_redes {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .redes {
+            gap: 8px;
+        }
+    </style>
+
+<main>
+    
+    <body>
+        <div class="portada1-serie-2003">
+            <ul class="lista1">
+                <li>Inicio</li>
+                <li>Mangas</li>
+                <li>Series y más</li>
+            </ul>
+            <hr>
+    
+            <div class="titulo1-serie-2003">
+                <h1>Episodio prueba</h1>
+            </div>
+        </div> 
+
+    <h1>Nuestro catálogo</h1>
+
+    <h2>Serie del 2003</h2>
+    <section class="serie_1980">
+
+        <div class="container">
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://acmi-website-media-prod.s3.amazonaws.com/media/images/Astro_Boy_Save_the_Classmate_2160x1023.original.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 1: Más energía</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-1/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 2: Robo Pelota</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-2/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 3: Destino Deimos</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-3/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 4: Invisible</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-4/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 5: Cañón Arco Iris</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-5/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 6: Atlas</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-6/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 7: Astro contra Atlas</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-7/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 8: El arte de Cato</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-8/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 9: Franken</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-9/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 10: Los robots Venus</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-10/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 11: Reviviendo a Jumbo</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-11/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+            
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 12: Cazadores de robots</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-12/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 13: La rebelión de Pluto</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-13/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 14: La caída de Acheon</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-14/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 15: Lago dragón</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-15/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 16: Astro en Outland</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-16/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 17: Ciudad profunda</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-17/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 18: Pluto muere</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-18/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 19: Chico robot</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-19/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 20: El chico de la
+                        <br>eternidad
+                    </p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-20/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 21: El monstruo del lago</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-21/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 22: Adios princesa</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-22/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 23: Recuerdos perdidos</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-23/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 24: Bea</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-24/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 25: Escucha como buscas
+                        <br>
+                         las lágrimas</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-25/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 26: Aparece el caballero
+                        <br>azul
+                    </p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-26/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 27: Papá, el detective</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-27/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 28: El peligro de la 
+                        <br>planta espacial
+                    </p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-28/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 29: Uranio y el detective</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-29/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 30: Expedición bajo tierra</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-30/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 31: La gran aventura de
+                         <br>Gunon
+                        </p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-31/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 32: El secreto del
+                        <br>Caballero Azul
+                    </p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-32/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 33: Cuento de hadas</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-33/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 34: Mupi, una vida
+                        <br>deformada
+                    </p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-34/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 35: Astro contra Rock</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-35/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 36: Robot enamorado</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-36/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 37: El contraataque de 
+                        <br>Atlas
+                    </p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-37/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 38: El deseo de Emilie</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-38/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 39: Cazador del tiempo</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-39/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 40: Robot antipático</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-40/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 41: Los recuerdos del gigante</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-41/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 42: La batalla en la isla 
+                        <br>acero
+                    </p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-42/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 43: El robot creado por
+                        <br>el hombre
+                    </p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-43/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 44: Hacia el bosque
+                        <br>dragón
+                    </p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-44/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 45: La víspera de la
+                        <br>revolución
+                    </p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-45/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 46: La fundación
+                        <br>Robotonia
+                    </p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-46/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 47: Batalla decisiva en
+                        <br>la Antártida
+                    </p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-47/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 48: Viaje al mañana</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-48/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 49: La resurreción de 
+                        <br>Astro
+                    </p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-49/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 50: El último desafío</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-50/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+            
+        </div>
+    </section>
+
+
+    <h2>Serie de 1980</h2>
+    <section>
+
+        <div class="container">
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 1: Más energía</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-1/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 2: Robo Pelota</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-2/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 3: Destino Deimos</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-3/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 4: Invisible</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-4/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 5: Cañón Arco Iris</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-5/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 6: Atlas</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-6/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 7: Astro contra Atlas</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-7/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 8: El arte de Cato</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-8/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 9: Franken</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-9/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 10: Los robots Venus</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-10/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 11: Reviviendo a Jumbo</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-11/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+            
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 12: Cazadores de robots</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-12/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 13: La rebelión de Pluto</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-13/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 14: La caída de Acheon</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-14/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 15: Lago dragón</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-15/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 16: Astro en Outland</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-16/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 17: Ciudad profunda</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-17/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 18: Pluto muere</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-18/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 19: Chico robot</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-19/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 20: El chico de la
+                        <br>eternidad
+                    </p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-20/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 21: El monstruo del lago</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-21/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 22: Adios princesa</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-22/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 23: Recuerdos perdidos</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-23/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 24: Bea</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-24/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 25: Escucha como buscas
+                        <br>
+                         las lágrimas</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-25/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 26: Aparece el caballero
+                        <br>azul
+                    </p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-26/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 27: Papá, el detective</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-27/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 28: El peligro de la 
+                        <br>planta espacial
+                    </p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-28/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 29: Uranio y el detective</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-29/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 30: Expedición bajo tierra</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-30/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 31: La gran aventura de
+                         <br>Gunon
+                        </p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-31/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 32: El secreto del
+                        <br>Caballero Azul
+                    </p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-32/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 33: Cuento de hadas</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-33/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 34: Mupi, una vida
+                        <br>deformada
+                    </p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-34/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 35: Astro contra Rock</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-35/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 36: Robot enamorado</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-36/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 37: El contraataque de 
+                        <br>Atlas
+                    </p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-37/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 38: El deseo de Emilie</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-38/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 39: Cazador del tiempo</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-39/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 40: Robot antipático</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-40/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 41: Los recuerdos del gigante</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-41/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 42: La batalla en la isla 
+                        <br>acero
+                    </p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-42/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 43: El robot creado por
+                        <br>el hombre
+                    </p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-43/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 44: Hacia el bosque
+                        <br>dragón
+                    </p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-44/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 45: La víspera de la
+                        <br>revolución
+                    </p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-45/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 46: La fundación
+                        <br>Robotonia
+                    </p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-46/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 47: Batalla decisiva en
+                        <br>la Antártida
+                    </p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-47/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 48: Viaje al mañana</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-48/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 49: La resurreción de 
+                        <br>Astro
+                    </p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-49/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 50: El último desafío</p>
+                    <div class="buttons">
+                        <a href="https://astro-boy-2000.webnode.es/episodio-50/" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+            
+        </div>
+    </section>
+
+
+</body>
+<footer>
+
+    <div>
+
+        <h4 class="las_redes">Nuestras Redes Sociales</h4>
+
+    </div>
+
+    <div class="todas_las_redes">
+
+        <h4 class="redes">Facebook <i class="fa-brands fa-facebook"></i></h4>
+        <h4 class="redes">Instagram <i class="fa-brands fa-instagram"></i></h4>
+        <h4 class="redes">Twitter/X <i class="fa-brands fa-twitter"></i></h4>
+        <h4 class="redes">Tik Tok <i class="fa-brands fa-tiktok"></i></h4>
+        <h4 class="redes">Amino <i class="fa-solid fa-people-arrows"></i></h4>
+
+    </div>
+
+    <hr>
+
+    <div>
+
+        <h4 class="derechos">Astro Boy Latino / Todos los derechos a quien corresponde</h4>
+
+    </div>
+
+
+</footer>
+</main>

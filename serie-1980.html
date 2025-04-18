@@ -1,0 +1,1875 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>AstroBoyLatino-Series_y_mas</title>
+</head>
+    <style>
+
+a {color: #fff; text-decoration: none;}
+
+
+/* Rainbow glow button */
+.rainbow-btn {
+   color: #fff;
+   cursor: pointer;
+   position: relative;
+   padding: 10px 20px;
+   text-decoration: none;
+   border-radius: 8px;
+   transition: .5s;
+   background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+   background-size: 400%;
+   animation: rainbow 8s linear infinite;
+   align-items: center;
+}
+@keyframes rainbow {
+   0% { background-position: 0%; }
+   100% { background-position: 400%; }
+}
+.rainbow-btn:before {
+   content: '';
+   position: absolute;
+   top: -5px;
+   left: -5px;
+   right: -5px;
+   bottom: -5px;
+   z-index: -1;
+   background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+   background-size: 400%;
+   border-radius: 8px;
+   opacity: .5;
+   transition: 0.5s;
+   animation: rainbow 8s linear infinite;
+   filter: blur(5px);
+}
+.rainbow-btn:hover:before {
+   filter: blur(20px);
+   opacity: 1;
+}
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Roboto, sans-serif; 
+        }
+        
+        body {
+            display: flex;
+            flex-direction: column; 
+            justify-content: center;
+            background-color: #31333E;
+            scroll-behavior:smooth;
+        }
+        
+        h2{
+            color: #00fff7;;
+            padding-left: 30px;
+        }
+        
+        section {
+            width: 100%;
+            overflow-y: hidden;
+            overflow-x: scroll;
+            padding: 0 30px;
+            margin-bottom: 20px;
+        }
+        
+        .container{
+            white-space: nowrap;
+            margin: 50px 0;
+        }
+        
+        .card{
+            display: inline-block;
+            position: relative;
+            border-radius: 20px;
+            overflow: hidden;
+            margin-right: 20px;
+            transform-origin: center left;
+            transition: 600ms;
+        }
+        
+        .container:hover .card{
+            opacity: 0.5;
+            
+        }
+        
+        .container:hover .card:hover{
+            transform: scale(1.3);
+            opacity: 1;
+        }
+        
+        .card:hover ~.card{
+            transform: translate3d(90px, 0, 0);
+        }
+        
+        .card:last-child{
+            transform-origin: center right; 
+        }
+        
+        /*Card image details*/
+        .card_image {
+            width: 290px;
+            height: 290px;
+            overflow: hidden;
+        }
+        
+        img{
+            width: 300px;
+            height: 350px; 
+            object-fit: cover;
+        }
+        
+        /*Card text details*/
+        .card_content {
+            background: linear-gradient(to top, rgba(0,0,0) 0%, rgba(0,0,0,.1) 100%);
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            color: white;
+            padding: 20px;
+            opacity: 0;
+            transition: 450ms opacity;
+            cursor: pointer;
+            padding-bottom: 30px;
+            align-items: center;
+            flex-wrap: nowrap;
+            gap: 8px;
+            align-content: center;
+        }
+        
+        .card_content:hover{
+            opacity: 1;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        
+        .card-icons{
+            margin-bottom: 20px;
+        }
+        
+        .card-icons svg {
+            fill: #71B5B2;
+        }
+        
+        .card-title{
+            margin-bottom: 10px
+        }
+        
+        /*Scroll bar detail*/
+        section::-webkit-scrollbar{
+            background: #ff0000;
+            border-radius: 20px;
+        }
+        
+        section::-webkit-scrollbar-thumb{
+            background: #0062ff;
+            border-radius: 20px;
+            border: #ff0000 solid 3px;
+        }
+
+        .serie_1980 {
+            height: 420px;
+        }
+
+        footer {
+        background-color: black;
+        }
+
+        .las_redes {
+            display: flex;
+        }
+
+        .todas_las_redes {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .redes {
+            gap: 8px;
+        }
+    </style>
+
+<main>
+    
+    <body>
+        <div class="portada1-serie-2003">
+            <ul class="lista1">
+                <li>Inicio</li>
+                <li>Mangas</li>
+                <li>Series y más</li>
+            </ul>
+            <hr>
+    
+            <div class="titulo1-serie-2003">
+                <h1>Nuestro catálogo</h1>
+            </div>
+        </div> 
+
+    <h2>Serie de 1980</h2>
+
+    <section>
+
+        <div class="container">
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://i.postimg.cc/Y2JJHdBL/imagen-2025-04-18-010533036.png" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Capítulo 1: El nacimiento de Astro Boy</p>
+                    <div class="buttons">
+                        <a href="capitulo 1.html" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://i.postimg.cc/RVJJ3VYb/2.png" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Capitulo 2: El circo de los robots</p>
+                    <div class="buttons">
+                        <a href="capitulo 2.html" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://i.postimg.cc/vZRg5wF8/3.png" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Capitulo 3: Al rescate de <br> los compañeros</p>
+                    <div class="buttons">
+                        <a href="capitulo 3.html" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://i.postimg.cc/MGqnr0ph/4.png" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Capitulo 4: El primer amor <br> de Astro Boy</p>
+                    <div class="buttons">
+                        <a href="capitulo 4.html" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://i.postimg.cc/JzbyqYMN/5.png" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Capitulo 5: Rescatemos al Carolina 3</p>
+                    <div class="buttons">
+                        <a href="capitulo 5.html" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://i.postimg.cc/3w1kMyyW/6.png" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Capitulo 6: Pook el bebé elefante</p>
+                    <div class="buttons">
+                        <a href="capitulo 6.html" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://i.postimg.cc/tJZJV2BV/7.png" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Capitulo 7: Astro Boy contra <br> los seres espaciales</p>
+                    <div class="buttons">
+                        <a href="capitulo 7.html" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://i.postimg.cc/gJBrJfHW/8.png" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Capitulo 8: El Planeta Blanco</p>
+                    <div class="buttons">
+                        <a href="capitulo 8.html" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://i.postimg.cc/265VCzvG/9.png" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Capitulo 9: El robot de transformación</p>
+                    <div class="buttons">
+                        <a href="capitulo 9.html" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 10: Atlas vuelve a la vida</p>
+                    <div class="buttons">
+                        <a href="capitulo 10.html" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 11: El cristal del desierto</p>
+                    <div class="buttons">
+                        <a href="capitulo 11.html" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+            
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 12: Frankenstein</p>
+                    <div class="buttons">
+                        <a href="capitulo 12.html" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 13: Mi hermana Lucero</p>
+                    <div class="buttons">
+                        <a href="capitulo 13.html" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 14: Escapando de <br> la tormenta</p>
+                    <div class="buttons">
+                        <a href="capitulo 14.html" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 15: El Cometa Arco iris</p>
+                    <div class="buttons">
+                        <a href="capitulo 15.html" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 16: El tren subterráneo</p>
+                    <div class="buttons">
+                        <a href="capitulo 16.html" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 17: El monstruo de <br> Clark Kent</p>
+                    <div class="buttons">
+                        <a href="capitulo 17.html" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 18: El genio del <br> espacio exterior</p>
+                    <div class="buttons">
+                        <a href="capitulo 18.html" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 19: Los robots que <br> nadie quería</p>
+                    <div class="buttons">
+                        <a href="capitulo 19.html" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 20: La chica de Alzuar</p>
+                    <div class="buttons">
+                        <a href="capitulo 20.html" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 21: La tierra de los robots</p>
+                    <div class="buttons">
+                        <a href="capitulo 21.html" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 22: ALos robots vikingos</p>
+                    <div class="buttons">
+                        <a href="capitulo 22.html" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 23: El gran deshielo</p>
+                    <div class="buttons">
+                        <a href="capitulo 23.html" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 24: Lili en la isla del peligro</p>
+                    <div class="buttons">
+                        <a href="capitulo 24.html" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 25: El embargo de la nieves</p>
+                    <div class="buttons">
+                        <a href="capitulo 25.html" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 26: La roca de rostro humano</p>
+                    <div class="buttons">
+                        <a href="capitulo 26.html" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 27: Las dos Luceros</p>
+                    <div class="buttons">
+                        <a href="capitulo 27.html" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 28: El Puerto Espacial R-45</p>
+                    <div class="buttons">
+                        <a href="capitulo 28.html" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">El gato rojo</p>
+                    <div class="buttons">
+                        <a href="capitulo 29.html" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 30: La tragedia del Titan</p>
+                    <div class="buttons">
+                        <a href="capitulo 30.html" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 31: El presidente robot</p>
+                    <div class="buttons">
+                        <a href="capitulo 31.html" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 32: La búsqueda de Lucero</p>
+                    <div class="buttons">
+                        <a href="capitulo 32.html" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 33: El mundo de Odin</p>
+                    <div class="buttons">
+                        <a href="capitulo 33.html" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 34: El doble robot</p>
+                    <div class="buttons">
+                        <a href="capitulo 34.html" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 35: El robot relámpago</p>
+                    <div class="buttons">
+                        <a href="capitulo 35.html" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 36: La máquina del tiempo</p>
+                    <div class="buttons">
+                        <a href="capitulo 36.html" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 37: La esfera solar artificial</p>
+                    <div class="buttons">
+                        <a href="capitulo 37.html" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 38: Lucero se enamora</p>
+                    <div class="buttons">
+                        <a href="capitulo 38.html" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 39: El ataque al Memorial</p>
+                    <div class="buttons">
+                        <a href="capitulo 39.html" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 40: El secreto prehispánico</p>
+                    <div class="buttons">
+                        <a href="capitulo 40.html" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 41: El arma antiprotones</p>
+                    <div class="buttons">
+                        <a href="capitulo 41.html" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 42: El secreto de la <br> cuidad de las abejas</p>
+                    <div class="buttons">
+                        <a href="capitulo 42.html" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 43: El robot mentiroso</p>
+                    <div class="buttons">
+                        <a href="capitulo 43.html" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 44: Robeo y Rubieta</p>
+                    <div class="buttons">
+                        <a href="capitulo 44.html" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 45: El Morocho</p>
+                    <div class="buttons">
+                        <a href="capitulo 45.html" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 46: El regreso de Cleopatra</p>
+                    <div class="buttons">
+                        <a href="capitulo 46.html" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 47: La cabeza de Goliat</p>
+                    <div class="buttons">
+                        <a href="capitulo 47.html" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 48: Mi hermano Atlas</p>
+                    <div class="buttons">
+                        <a href="capitulo 48.html" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 49: El globo de la muerte</p>
+                    <div class="buttons">
+                        <a href="capitulo 49.html" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 50: El robot más poderoso <br> del mundo - Primera parte</p>
+                    <div class="buttons">
+                        <a href="capitulo 50.html" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 51: El robot más poderoso <br> del mundo - Segunda parte</p>
+                    <div class="buttons">
+                        <a href="capitulo 51.html" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card_image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjdiNDMtZDFiNC00MTcwLWE5NTQtNzkxNzYxNmEyMThjXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg" alt="">
+                </figure>
+                <div class="card_content">
+                    <p class="card-title">Episodio 52: Episodio eliminado: <br> Atlas (Astro Boy vs Atlas)</p>
+                    <div class="buttons">
+                        <a href="capitulo 52.html" rel="nofollow" class="rainbow-btn">Ver episodio</a>
+                     </div>
+                </div>
+            </article>
+            
+        </div>
+    </section>
+
+<!-- lista de episodios de forma escalonada -->    
+
+    <div class="lista-1980">
+
+        <div class="img-ep1"></div>
+
+        <div class="desc-ep1">
+
+            <h3 class="ep1">Capítulo 1: </h3>
+
+            <h4 class="desc1">El nacimiento de Astro Boy</h4>
+
+            <p class="descripcion">El nacimiento de Astro Boy y su primera aventura siendo el salvador de la gente en peligro</p>
+
+            <a href="capitulo 1.html"><button>Ver episodio</button> </a>
+            
+        </div>
+
+    </div>
+    <hr>
+
+    <div class="lista-1980">
+
+        <div class="img-ep2"></div>
+
+        <div class="desc-ep1">
+
+            <h3 class="ep1">Capítulo 2:</h3>
+
+            <h4 class="desc1">El circo de los robots</h4>
+
+            <p class="descripcion">El nacimiento de Astro Boy y su primera aventura siendo el salvador de la gente en peligro</p>
+
+            <a href="capitulo 2.html"><button>Ver episodio</button> </a>
+            
+        </div>
+
+    </div>
+    <hr>
+
+    <div class="lista-1980">
+
+        <div class="img-ep3"></div>
+
+        <div class="desc-ep1">
+
+            <h3 class="ep1">Capítulo 3:</h3>
+
+            <h4 class="desc1">Al rescate de los compañeros</h4>
+
+            <p class="descripcion">El nacimiento de Astro Boy y su primera aventura siendo el salvador de la gente en peligro</p>
+
+            <a href="capitulo 3.html"><button>Ver episodio</button> </a>
+            
+        </div>
+
+    </div>
+    <hr>
+
+    <div class="lista-1980">
+
+        <div class="img-ep4"></div>
+
+        <div class="desc-ep1">
+
+            <h3 class="ep1">Capítulo 4:</h3>
+
+            <h4 class="desc1">El primer amor de Astro Boy</h4>
+
+            <p class="descripcion">El nacimiento de Astro Boy y su primera aventura siendo el salvador de la gente en peligro</p>
+
+            <a href="capitulo 4.html"><button>Ver episodio</button> </a>
+            
+        </div>
+
+    </div>
+    <hr>
+
+    <div class="lista-1980">
+
+        <div class="img-ep5"></div>
+
+        <div class="desc-ep1">
+
+            <h3 class="ep1">Capítulo 5:</h3>
+
+            <h4 class="desc1">Rescatemos al Carolina 3</h4>
+
+            <p class="descripcion">El nacimiento de Astro Boy y su primera aventura siendo el salvador de la gente en peligro</p>
+
+            <a href="capitulo 5.html"><button>Ver episodio </button></a>
+            
+        </div>
+
+    </div>
+    <hr>
+
+    <div class="lista-1980">
+
+        <div class="img-ep6"></div>
+
+        <div class="desc-ep1">
+
+            <h3 class="ep1">Capítulo 6:</h3>
+
+            <h4 class="desc1">Pook el bebé elefante</h4>
+
+            <p class="descripcion">El nacimiento de Astro Boy y su primera aventura siendo el salvador de la gente en peligro</p>
+
+            <button><a href="capitulo 6.html">Ver episodio </a></button>
+            
+        </div>
+
+    </div>
+    <hr>
+
+    <div class="lista-1980">
+
+        <div class="img-ep7"></div>
+
+        <div class="desc-ep1">
+
+            <h3 class="ep1">Capítulo 7:</h3>
+
+            <h4 class="desc1">Astro Boy contra los seres espaciales</h4>
+
+            <p class="descripcion">El nacimiento de Astro Boy y su primera aventura siendo el salvador de la gente en peligro</p>
+
+            <button><a href="capitulo 7.html">Ver episodio </a></button>
+            
+        </div>
+
+    </div>
+    <hr>
+
+    <div class="lista-1980">
+
+        <div class="img-ep8"></div>
+
+        <div class="desc-ep1">
+
+            <h3 class="ep1">Capítulo 8:</h3>
+
+            <h4 class="desc1">El Planeta Blanco</h4>
+
+            <p class="descripcion">El nacimiento de Astro Boy y su primera aventura siendo el salvador de la gente en peligro</p>
+
+            <button><a href="capitulo 8.html">Ver episodio </a></button>
+            
+        </div>
+
+    </div>
+    <hr>
+
+    <div class="lista-1980">
+
+        <div class="img-ep9"></div>
+
+        <div class="desc-ep1">
+
+            <h3 class="ep1">Capítulo 9:</h3>
+
+            <h4 class="desc1">El robot de transformación</h4>
+
+            <p class="descripcion">El nacimiento de Astro Boy y su primera aventura siendo el salvador de la gente en peligro</p>
+
+            <button><a href="capitulo 9.html">Ver episodio </a></button>
+            
+        </div>
+
+    </div>
+    <hr>
+
+    <div class="lista-1980">
+
+        <div class="img-ep10"></div>
+
+        <div class="desc-ep1">
+
+            <h3 class="ep1">Capítulo 10:</h3>
+
+            <h4 class="desc1">Atlas vuelve a la vida</h4>
+
+            <p class="descripcion">El nacimiento de Astro Boy y su primera aventura siendo el salvador de la gente en peligro</p>
+
+            <button><a href="episodio_prueba.html">Ver episodio </a></button>
+            
+        </div>
+
+    </div>
+    <hr>
+
+    <div class="lista-1980">
+
+        <div class="img-ep11"></div>
+
+        <div class="desc-ep1">
+
+            <h3 class="ep1">Capítulo 11:</h3>
+
+            <h4 class="desc1">El cristal del desierto</h4>
+
+            <p class="descripcion">El nacimiento de Astro Boy y su primera aventura siendo el salvador de la gente en peligro</p>
+
+            <button><a href="episodio_prueba.html">Ver episodio </a></button>
+            
+        </div>
+
+    </div>
+    <hr>
+
+    <div class="lista-1980">
+
+        <div class="img-ep12"></div>
+
+        <div class="desc-ep1">
+
+            <h3 class="ep1">Capítulo 12:</h3>
+
+            <h4 class="desc1">Frankenstein</h4>
+
+            <p class="descripcion">El nacimiento de Astro Boy y su primera aventura siendo el salvador de la gente en peligro</p>
+
+            <button><a href="episodio_prueba.html">Ver episodio </a></button>
+            
+        </div>
+
+    </div>
+    <hr>
+
+    <div class="lista-1980">
+
+        <div class="img-ep13"></div>
+
+        <div class="desc-ep1">
+
+            <h3 class="ep1">Capítulo 13:</h3>
+
+            <h4 class="desc1">Mi hermana Lucero</h4>
+
+            <p class="descripcion">El nacimiento de Astro Boy y su primera aventura siendo el salvador de la gente en peligro</p>
+
+            <button><a href="episodio_prueba.html">Ver episodio </a></button>
+            
+        </div>
+
+    </div>
+    <hr>
+
+    <div class="lista-1980">
+
+        <div class="img-ep14"></div>
+
+        <div class="desc-ep1">
+
+            <h3 class="ep1">Capítulo 14:</h3>
+
+            <h4 class="desc1">Escapando de la tormenta</h4>
+
+            <p class="descripcion">El nacimiento de Astro Boy y su primera aventura siendo el salvador de la gente en peligro</p>
+
+            <button><a href="episodio_prueba.html">Ver episodio </a></button>
+            
+        </div>
+
+    </div>
+    <hr>
+
+    <div class="lista-1980">
+
+        <div class="img-ep15"></div>
+
+        <div class="desc-ep1">
+
+            <h3 class="ep1">Capítulo 15:</h3>
+
+            <h4 class="desc1">El Cometa Arco iris</h4>
+
+            <p class="descripcion">El nacimiento de Astro Boy y su primera aventura siendo el salvador de la gente en peligro</p>
+
+            <button><a href="episodio_prueba.html">Ver episodio </a></button>
+            
+        </div>
+
+    </div>
+    <hr>
+
+    <div class="lista-1980">
+
+        <div class="img-ep16"></div>
+
+        <div class="desc-ep1">
+
+            <h3 class="ep1">Capítulo 16:</h3>
+
+            <h4 class="desc1">El tren subterráneo</h4>
+
+            <p class="descripcion">El nacimiento de Astro Boy y su primera aventura siendo el salvador de la gente en peligro</p>
+
+            <button><a href="episodio_prueba.html">Ver episodio </a></button>
+            
+        </div>
+
+    </div>
+    <hr>
+
+    <div class="lista-1980">
+
+        <div class="img-ep17"></div>
+
+        <div class="desc-ep1">
+
+            <h3 class="ep1">Capítulo 17:</h3>
+
+            <h4 class="desc1">El monstruo de Clark Kent</h4>
+
+            <p class="descripcion">El nacimiento de Astro Boy y su primera aventura siendo el salvador de la gente en peligro</p>
+
+            <button><a href="episodio_prueba.html">Ver episodio </a></button>
+            
+        </div>
+
+    </div>
+    <hr>
+
+    <div class="lista-1980">
+
+        <div class="img-ep18"></div>
+
+        <div class="desc-ep1">
+
+            <h3 class="ep1">Capítulo 18:</h3>
+
+            <h4 class="desc1">El genio del espacio exterior</h4>
+
+            <p class="descripcion">El nacimiento de Astro Boy y su primera aventura siendo el salvador de la gente en peligro</p>
+
+            <button><a href="episodio_prueba.html">Ver episodio </a></button>
+            
+        </div>
+
+    </div>
+    <hr>
+
+    <div class="lista-1980">
+
+        <div class="img-ep19"></div>
+
+        <div class="desc-ep1">
+
+            <h3 class="ep1">Capítulo 19:</h3>
+
+            <h4 class="desc1">Los robots que nadie quería</h4>
+
+            <p class="descripcion">El nacimiento de Astro Boy y su primera aventura siendo el salvador de la gente en peligro</p>
+
+            <button><a href="episodio_prueba.html">Ver episodio </a></button>
+            
+        </div>
+
+    </div>
+    <hr>
+
+    <div class="lista-1980">
+
+        <div class="img-ep20"></div>
+
+        <div class="desc-ep1">
+
+            <h3 class="ep1">Capítulo 20:</h3>
+
+            <h4 class="desc1">La chica de Alzuar</h4>
+
+            <p class="descripcion">El nacimiento de Astro Boy y su primera aventura siendo el salvador de la gente en peligro</p>
+
+            <button><a href="episodio_prueba.html">Ver episodio </a></button>
+            
+        </div>
+
+    </div>
+    <hr>
+
+    <div class="lista-1980">
+
+        <div class="img-ep21"></div>
+
+        <div class="desc-ep1">
+
+            <h3 class="ep1">Capítulo 21:</h3>
+
+            <h4 class="desc1">La tierra de los robots</h4>
+
+            <p class="descripcion">El nacimiento de Astro Boy y su primera aventura siendo el salvador de la gente en peligro</p>
+
+            <button><a href="episodio_prueba.html">Ver episodio </a></button>
+            
+        </div>
+
+    </div>
+    <hr>
+
+    <div class="lista-1980">
+
+        <div class="img-ep22"></div>
+
+        <div class="desc-ep1">
+
+            <h3 class="ep1">Capítulo 22:</h3>
+
+            <h4 class="desc1">Los robots vikingos</h4>
+
+            <p class="descripcion">El nacimiento de Astro Boy y su primera aventura siendo el salvador de la gente en peligro</p>
+
+            <button><a href="episodio_prueba.html">Ver episodio </a></button>
+            
+        </div>
+
+    </div>
+    <hr>
+
+    <div class="lista-1980">
+
+        <div class="img-ep23"></div>
+
+        <div class="desc-ep1">
+
+            <h3 class="ep1">Capítulo 23:</h3>
+
+            <h4 class="desc1">El gran deshielo</h4>
+
+            <p class="descripcion">El nacimiento de Astro Boy y su primera aventura siendo el salvador de la gente en peligro</p>
+
+            <button><a href="episodio_prueba.html">Ver episodio </a></button>
+            
+        </div>
+
+    </div>
+    <hr>
+
+    <div class="lista-1980">
+
+        <div class="img-ep24"></div>
+
+        <div class="desc-ep1">
+
+            <h3 class="ep1">Capítulo 24:</h3>
+
+            <h4 class="desc1">Lili en la isla del peligro</h4>
+
+            <p class="descripcion">El nacimiento de Astro Boy y su primera aventura siendo el salvador de la gente en peligro</p>
+
+            <button><a href="episodio_prueba.html">Ver episodio </a></button>
+            
+        </div>
+
+    </div>
+    <hr>
+
+    <div class="lista-1980">
+
+        <div class="img-ep25"></div>
+
+        <div class="desc-ep1">
+
+            <h3 class="ep1">Capítulo 25:</h3>
+
+            <h4 class="desc1">El embargo de la nieve</h4>
+
+            <p class="descripcion">El nacimiento de Astro Boy y su primera aventura siendo el salvador de la gente en peligro</p>
+
+            <button><a href="episodio_prueba.html">Ver episodio </a></button>
+             
+        </div>
+
+    </div>
+    <hr>
+
+    <div class="lista-1980">
+
+        <div class="img-ep26"></div>
+
+        <div class="desc-ep1">
+
+            <h3 class="ep1">Capítulo 26:</h3>
+
+            <h4 class="desc1">La roca de rostro humano</h4>
+
+            <p class="descripcion">El nacimiento de Astro Boy y su primera aventura siendo el salvador de la gente en peligro</p>
+
+            <button><a href="episodio_prueba.html">Ver episodio </a></button>
+            
+        </div>
+
+    </div>
+    <hr>
+
+    <div class="lista-1980">
+
+        <div class="img-ep27"></div>
+
+        <div class="desc-ep1">
+
+            <h3 class="ep1">Capítulo 27:</h3>
+
+            <h4 class="desc1">Las dos Luceros</h4>
+
+            <p class="descripcion">El nacimiento de Astro Boy y su primera aventura siendo el salvador de la gente en peligro</p>
+
+            <button><a href="episodio_prueba.html">Ver episodio </a></button>
+             
+        </div>
+
+    </div>
+    <hr>
+
+    <div class="lista-1980">
+
+        <div class="img-ep28"></div>
+
+        <div class="desc-ep1">
+
+            <h3 class="ep1">Capítulo 28:</h3>
+
+            <h4 class="desc1">El Puerto Espacial R-45</h4>
+
+            <p class="descripcion">El nacimiento de Astro Boy y su primera aventura siendo el salvador de la gente en peligro</p>
+
+            <button><a href="episodio_prueba.html">Ver episodio </a></button>
+            
+        </div>
+
+    </div>
+    <hr>
+
+    <div class="lista-1980">
+
+        <div class="img-ep29"></div>
+
+        <div class="desc-ep1">
+
+            <h3 class="ep1">Capítulo 29:</h3>
+
+            <h4 class="desc1">El gato rojo</h4>
+
+            <p class="descripcion">El nacimiento de Astro Boy y su primera aventura siendo el salvador de la gente en peligro</p>
+
+            <button><a href="episodio_prueba.html">Ver episodio </a></button>
+            
+        </div>
+
+    </div>
+    <hr>
+
+    <div class="lista-1980">
+
+        <div class="img-ep30"></div>
+
+        <div class="desc-ep1">
+
+            <h3 class="ep1">Capítulo 30:</h3>
+
+            <h4 class="desc1">La tragedia del Titan</h4>
+
+            <p class="descripcion">El nacimiento de Astro Boy y su primera aventura siendo el salvador de la gente en peligro</p>
+
+            <button><a href="episodio_prueba.html">Ver episodio </a></button>
+            
+        </div>
+
+    </div>
+    <hr>
+
+    <div class="lista-1980">
+
+        <div class="img-ep31"></div>
+
+        <div class="desc-ep1">
+
+            <h3 class="ep1">Capítulo 31:</h3>
+
+            <h4 class="desc1">El presidente robot</h4>
+
+            <p class="descripcion">El nacimiento de Astro Boy y su primera aventura siendo el salvador de la gente en peligro</p>
+
+            <button><a href="episodio_prueba.html">Ver episodio </a></button>
+            
+        </div>
+
+    </div>
+    <hr>
+
+    <div class="lista-1980">
+
+        <div class="img-ep32"></div>
+
+        <div class="desc-ep1">
+
+            <h3 class="ep1">Capítulo 32:</h3>
+
+            <h4 class="desc1">La búsqueda de Lucero</h4>
+
+            <p class="descripcion">El nacimiento de Astro Boy y su primera aventura siendo el salvador de la gente en peligro</p>
+
+            <button><a href="episodio_prueba.html">Ver episodio </a></button>
+            
+        </div>
+
+    </div>
+    <hr>
+
+    <div class="lista-1980">
+
+        <div class="img-ep33"></div>
+
+        <div class="desc-ep1">
+
+            <h3 class="ep1">Capítulo 33:</h3>
+
+            <h4 class="desc1">El mundo de Odin</h4>
+
+            <p class="descripcion">El nacimiento de Astro Boy y su primera aventura siendo el salvador de la gente en peligro</p>
+
+            <button><a href="episodio_prueba.html">Ver episodio </a></button>
+            
+        </div>
+
+    </div>
+    <hr>
+
+    <div class="lista-1980">
+
+        <div class="img-ep34"></div>
+
+        <div class="desc-ep1">
+
+            <h3 class="ep1">Capítulo 34:</h3>
+
+            <h4 class="desc1">El doble robot</h4>
+
+            <p class="descripcion">El nacimiento de Astro Boy y su primera aventura siendo el salvador de la gente en peligro</p>
+
+            <button><a href="episodio_prueba.html">Ver episodio </a></button>
+            
+        </div>
+
+    </div>
+    <hr>
+
+    <div class="lista-1980">
+
+        <div class="img-ep35"></div>
+
+        <div class="desc-ep1">
+
+            <h3 class="ep1">Capítulo 35:</h3>
+
+            <h4 class="desc1">El robot relámpago</h4>
+
+            <p class="descripcion">El nacimiento de Astro Boy y su primera aventura siendo el salvador de la gente en peligro</p>
+
+            <button><a href="episodio_prueba.html">Ver episodio </a></button>
+            
+        </div>
+
+    </div>
+    <hr>
+
+    <div class="lista-1980">
+
+        <div class="img-ep36"></div>
+
+        <div class="desc-ep1">
+
+            <h3 class="ep1">Capítulo 36:</h3>
+
+            <h4 class="desc1">La máquina del tiempo</h4>
+
+            <p class="descripcion">El nacimiento de Astro Boy y su primera aventura siendo el salvador de la gente en peligro</p>
+
+            <button><a href="episodio_prueba.html">Ver episodio </a></button>
+            
+        </div>
+
+    </div>
+    <hr>
+
+    <div class="lista-1980">
+
+        <div class="img-ep37"></div>
+
+        <div class="desc-ep1">
+
+            <h3 class="ep1">Capítulo 37:</h3>
+
+            <h4 class="desc1">La esfera solar artificial</h4>
+
+            <p class="descripcion">El nacimiento de Astro Boy y su primera aventura siendo el salvador de la gente en peligro</p>
+
+            <button><a href="episodio_prueba.html">Ver episodio </a></button>
+            
+        </div>
+
+    </div>
+    <hr>
+
+    <div class="lista-1980">
+
+        <div class="img-ep38"></div>
+
+        <div class="desc-ep1">
+
+            <h3 class="ep1">Capítulo 38:</h3>
+
+            <h4 class="desc1">Lucero se enamora</h4>
+
+            <p class="descripcion">El nacimiento de Astro Boy y su primera aventura siendo el salvador de la gente en peligro</p>
+
+            <button><a href="episodio_prueba.html">Ver episodio </a></button>
+            
+        </div>
+
+    </div>
+    <hr>
+
+    <div class="lista-1980">
+
+        <div class="img-ep39"></div>
+
+        <div class="desc-ep1">
+
+            <h3 class="ep1">Capítulo 39:</h3>
+
+            <h4 class="desc1">El ataque al Memorial</h4>
+
+            <p class="descripcion">El nacimiento de Astro Boy y su primera aventura siendo el salvador de la gente en peligro</p>
+
+            <button><a href="episodio_prueba.html">Ver episodio </a></button>
+            
+        </div>
+
+    </div>
+    <hr>
+
+    <div class="lista-1980">
+
+        <div class="img-ep40"></div>
+
+        <div class="desc-ep1">
+
+            <h3 class="ep1">Capítulo 40:</h3>
+
+            <h4 class="desc1">El secreto prehispánico</h4>
+
+            <p class="descripcion">El nacimiento de Astro Boy y su primera aventura siendo el salvador de la gente en peligro</p>
+
+            <button><a href="episodio_prueba.html">Ver episodio </a></button>
+            
+        </div>
+
+    </div>
+    <hr>
+
+    <div class="lista-1980">
+
+        <div class="img-ep41"></div>
+
+        <div class="desc-ep1">
+
+            <h3 class="ep1">Capítulo 41:</h3>
+
+            <h4 class="desc1">El arma antiprotones</h4>
+
+            <p class="descripcion">El nacimiento de Astro Boy y su primera aventura siendo el salvador de la gente en peligro</p>
+
+            <button><a href="episodio_prueba.html">Ver episodio </a></button>
+            
+        </div>
+
+    </div>
+    <hr>
+
+    <div class="lista-1980">
+
+        <div class="img-ep42"></div>
+
+        <div class="desc-ep1">
+
+            <h3 class="ep1">Capítulo 42:</h3>
+
+            <h4 class="desc1">El secreto de la cuidad de las abejas</h4>
+
+            <p class="descripcion">El nacimiento de Astro Boy y su primera aventura siendo el salvador de la gente en peligro</p>
+
+            <button><a href="episodio_prueba.html">Ver episodio </a></button>
+            
+        </div>
+
+    </div>
+    <hr>
+
+    <div class="lista-1980">
+
+        <div class="img-ep43"></div>
+
+        <div class="desc-ep1">
+
+            <h3 class="ep1">Capítulo 43:</h3>
+
+            <h4 class="desc1">El robot mentiroso</h4>
+
+            <p class="descripcion">El nacimiento de Astro Boy y su primera aventura siendo el salvador de la gente en peligro</p>
+
+            <button><a href="episodio_prueba.html">Ver episodio </a></button>
+            
+        </div>
+
+    </div>
+    <hr>
+
+    <div class="lista-1980">
+
+        <div class="img-ep44"></div>
+
+        <div class="desc-ep1">
+
+            <h3 class="ep1">Capítulo 44:</h3>
+
+            <h4 class="desc1">Robeo y Rubieta</h4>
+
+            <p class="descripcion">El nacimiento de Astro Boy y su primera aventura siendo el salvador de la gente en peligro</p>
+
+            <button><a href="episodio_prueba.html">Ver episodio </a></button>
+            
+        </div>
+
+    </div>
+    <hr>
+
+    <div class="lista-1980">
+
+        <div class="img-ep45"></div>
+
+        <div class="desc-ep1">
+
+            <h3 class="ep1">Capítulo 45:</h3>
+
+            <h4 class="desc1">El Morocho</h4>
+
+            <p class="descripcion">El nacimiento de Astro Boy y su primera aventura siendo el salvador de la gente en peligro</p>
+
+            <button><a href="episodio_prueba.html">Ver episodio </a></button>
+            
+        </div>
+
+    </div>
+    <hr>
+
+    <div class="lista-1980">
+
+        <div class="img-ep46"></div>
+
+        <div class="desc-ep1">
+
+            <h3 class="ep1">Capítulo 46:</h3>
+
+            <h4 class="desc1">El regreso de Cleopatra</h4>
+
+            <p class="descripcion">El nacimiento de Astro Boy y su primera aventura siendo el salvador de la gente en peligro</p>
+
+            <button><a href="episodio_prueba.html">Ver episodio </a></button>
+            
+        </div>
+
+    </div>
+    <hr>
+
+    <div class="lista-1980">
+
+        <div class="img-ep47"></div>
+
+        <div class="desc-ep1">
+
+            <h3 class="ep1">Capítulo 47:</h3>
+
+            <h4 class="desc1">La cabeza de Goliat</h4>
+
+            <p class="descripcion">El nacimiento de Astro Boy y su primera aventura siendo el salvador de la gente en peligro</p>
+
+            <button><a href="episodio_prueba.html">Ver episodio </a></button>
+            
+        </div>
+
+    </div>
+    <hr>
+
+    <div class="lista-1980">
+
+        <div class="img-ep48"></div>
+
+        <div class="desc-ep1">
+
+            <h3 class="ep1">Capítulo 48:</h3>
+
+            <h4 class="desc1">Mi hermano Atlas</h4>
+
+            <p class="descripcion">El nacimiento de Astro Boy y su primera aventura siendo el salvador de la gente en peligro</p>
+
+            <button><a href="episodio_prueba.html">Ver episodio </a></button>
+            
+        </div>
+
+    </div>
+    <hr>
+
+    <div class="lista-1980">
+
+        <div class="img-ep49"></div>
+
+        <div class="desc-ep1">
+
+            <h3 class="ep1">Capítulo 49:</h3>
+
+            <h4 class="desc1">El globo de la muerte</h4>
+
+            <p class="descripcion">El nacimiento de Astro Boy y su primera aventura siendo el salvador de la gente en peligro</p>
+
+            <button><a href="episodio_prueba.html">Ver episodio </a></button>
+            
+        </div>
+
+    </div>
+    <hr>
+
+    <div class="lista-1980">
+
+        <div class="img-ep50"></div>
+
+        <div class="desc-ep1">
+
+            <h3 class="ep1">Capítulo 50:</h3>
+
+            <h4 class="desc1">El robot más poderoso del mundo-Primera parte</h4>
+
+            <p class="descripcion">El nacimiento de Astro Boy y su primera aventura siendo el salvador de la gente en peligro</p>
+
+            <button><a href="episodio_prueba.html">Ver episodio </a></button>
+            
+        </div>
+
+    </div>
+    <hr>
+
+    <div class="lista-1980">
+
+        <div class="img-ep51"></div>
+
+        <div class="desc-ep1">
+
+            <h3 class="ep1">Capítulo 51:</h3>
+
+            <h4 class="desc1">El robot más poderoso del mundo-Segunda parte</h4>
+
+            <p class="descripcion">El nacimiento de Astro Boy y su primera aventura siendo el salvador de la gente en peligro</p>
+
+            <button><a href="episodio_prueba.html">Ver episodio </a></button>
+            
+        </div>
+
+    </div>
+    <hr>
+
+    <div class="lista-1980">
+
+        <div class="img-ep52"></div>
+
+        <div class="desc-ep1">
+
+            <h3 class="ep1">Capítulo 52:</h3>
+
+            <h4 class="desc1"> Episodio eliminado: Atlas (Astro Boy vs Atlas)</h4>
+
+            <p class="descripcion">El nacimiento de Astro Boy y su primera aventura siendo el salvador de la gente en peligro</p>
+
+            <button><a href="episodio_prueba.html">Ver episodio </a></button>
+            
+        </div>
+
+    </div>
+    <hr>
+
+</body>
+<footer>
+
+    <div>
+
+        <h4 class="las_redes">Nuestras Redes Sociales</h4>
+
+    </div>
+
+    <div class="todas_las_redes">
+
+        <h4 class="redes">Facebook <i class="fa-brands fa-facebook"></i></h4>
+        <h4 class="redes">Instagram <i class="fa-brands fa-instagram"></i></h4>
+        <h4 class="redes">Twitter/X <i class="fa-brands fa-twitter"></i></h4>
+        <h4 class="redes">Tik Tok <i class="fa-brands fa-tiktok"></i></h4>
+        <h4 class="redes">Amino <i class="fa-solid fa-people-arrows"></i></h4>
+
+    </div>
+
+    <hr>
+
+    <div>
+
+        <h4 class="derechos">Astro Boy Latino / Todos los derechos a quien corresponde</h4>
+
+    </div>
+
+
+</footer>
+</main>
