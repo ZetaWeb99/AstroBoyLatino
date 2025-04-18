@@ -4,6 +4,10 @@ body {
     max-height: 100%;
 }
 
+a {
+    text-decoration: none;
+}
+
 h1 {
     display: flex;
     flex-direction: row;
@@ -46,6 +50,7 @@ h4 {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
+    align-items: center;
     font-size: 40px;
     color: white;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -135,6 +140,12 @@ footer {
     border: 2px solid;
     border-radius: 10px;
     border-color: antiquewhite;
+}
+
+.opciones1-serie-2003 {
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
 }
 
 .opcion1{
@@ -303,6 +314,28 @@ footer {
     margin-bottom: 10px;
 }
 
+.img_opcion_series_1 {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://comics2film.com/images/1056/594/1/astro-boy-1980.jpg');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img_opcion_series_2 {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://static1.cbrimages.com/wordpress/wp-content/uploads/2020/03/Astro-Boy-SM.jpg');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
 /*episodios 2003*/
 
 .portada1-serie-2003 {
@@ -314,12 +347,763 @@ footer {
     margin-top: 50px;
 }
 
+.titulo2-serie-2003 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 320px;
+}
+
 .portada2-serie-2003 {
     width: 100%;
-    height: 600px;
-    background-color: black;
+    height: 900px;
+    background-color: #29458f;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 0 20px;
+    gap: 20px;
 
 }
+
+.portada-series-y-mas {
+    background-color: black;
+    height: 280px;
+}
+
+.series-menu {
+    background-color: #31333E;
+    height: 556px;
+}
+
+.opciones-series {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.opcion1-series {
+    width: 674px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    text-align: center;
+    transition: all 0.3s ease;
+    transform: scale(1);
+    border-radius: 12px;
+    text-decoration: none;
+}
+
+.opcion1-series h3,
+.opcion1-series h4 {
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.opcion1-series:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    transform: scale(1.02); /* ligera ampliación */
+    background-color: #2084e554;
+    border-radius: 12px;
+
+}
+
+.lista-1980 {
+    height: 500px;
+    background-color: #2084e554;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* lista de diseño de miniaturas de 1980 - inicio*/
+
+.img-ep1 {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/fL6bnGsq/capitulo-1.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep2 {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/SQMs7xLB/capitulo-2.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep3 {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/przL2sXW/capitulo-3.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep4 {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/Hs1LS1BV/capitulo-4.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep5 {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/L6k8wQbv/capitulo-5.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep6 {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/RZXVV69H/capitulo-6.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep7 {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/QMCNB8xn/capitulo-7.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep8 {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/7ZxZkMv4/capitulo-8.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep9 {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/s2Lj7kMf/capitulo-9.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep10 {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/WzGsRtXt/capitulo-10.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep11 {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/cCyd5f7V/capitulo-11.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep12 {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/Vsnf0Hm1/capitulo-12.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep13 {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/hPnSLbtm/capitulo-13.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep14 {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/rF9qQ0DP/capitulo-14.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep15 {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/XY74hjF7/capitulo-15.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep16 {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/Z574zGFP/capitulo-16.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep17 {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/HLFmVbNV/capitulo-17.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep18 {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/50vVv6cp/capitulo-18.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep19 {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/wMpdkggz/capitulo-19.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep20 {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/3NFQSVxv/capitulo-20.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep21 {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/66rKp2fp/capitulo-21.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep22 {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/X7nbGjsc/capitulo-22.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep23 {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/Hkx1zSDr/capitulo-23.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep24 {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/CLJVb3ty/capitulo-24.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep25 {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/HkhDhQdB/capitulo-25.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep26 {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/8CfQQjCD/capitulo-26.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep27 {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/vBRRQb1n/capitulo-27.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep28 {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/bJ17rWbB/capitulo-28.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep29 {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/cCZVnhB4/capitulo-29.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep30 {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/wMVncNw5/capitulo-30.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep31 {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/qBxfTfpt/capitulo-31.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep32 {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/gkgfxvXm/capitulo-32.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep33 {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/HkjFXVX5/capitulo-33.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep34 {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/htw6rc1Y/capitulo-34.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep35 {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/xCHgDp4j/capitulo-35.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep36 {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/fyNCw7Gc/capitulo-36.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep37 {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/446wWMcB/capitulo-37.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep38 {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/0j0frMvL/capitulo-38.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep39 {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/YqtRZ3fk/capitulo-39.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep40 {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/wTF2pm0N/capitulo-40.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep41 {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/zGBjXGcc/capitulo-41.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep42 {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/t4Mz1H0C/capitulo-42.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep43 {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/g0LH8Bdy/capitulo-43.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep44 {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/Ss07r7NB/capitulo-44.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep45 {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/d18RSkhL/capitulo-45.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep46 {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/MHq0k6Bt/capitulo-46.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep47 {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/kGsQq0FC/capitulo-47.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep48 {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/qBxXsKfF/capitulo-48.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep49 {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/rFyGQpMw/capitulo-49.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep50 {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/8PyR3VzB/capitulo-50.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep51 {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/pLpfM19N/capitulo-51.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep52 {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/8z9hpBW7/capitulo-52.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* lista de diseño de miniaturas de 1980 - fin*/
+
+.desc-ep1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.ep1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+    font-size: 25px;
+    text-shadow: none;
+}
+
+.desc1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+    font-size: 18px;
+    text-shadow: none;
+}
+
+.descripcion {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+    font-size: 15px;
+
+}
+
+button   {
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: .5s;
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    background-size: 400%;
+    animation: rainbow 8s linear infinite;
+    align-items: center;
+    border: solid;
+    font-size: 20px;
+
+}
+
+
+.rainbow-btn {
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: .5s;
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    background-size: 400%;
+    animation: rainbow 8s linear infinite;
+    align-items: center;
+ }
+ @keyframes rainbow {
+    0% { background-position: 0%; }
+    100% { background-position: 400%; }
+ }
+ .rainbow-btn:before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    background-size: 400%;
+    border-radius: 8px;
+    opacity: .5;
+    transition: 0.5s;
+    animation: rainbow 8s linear infinite;
+    filter: blur(5px);
+ }
+ .rainbow-btn:hover:before {
+    filter: blur(20px);
+    opacity: 1;
+ }
