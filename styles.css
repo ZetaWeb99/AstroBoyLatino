@@ -6,6 +6,7 @@ body {
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 h1 {
@@ -66,6 +67,11 @@ h4 {
 
 footer {
     background-color: black;
+}
+
+.pie {
+    display: flex;
+    gap: 8px;
 }
 
 .las_redes {
@@ -188,7 +194,7 @@ footer {
 .img_opcion1 {
     width: 120px;
     height: 120px;
-    background-image: url('https://2788841bb6.cbaul-cdnwnd.com/76672681230ebf7d4fb1265e6a09136e/200000595-600796007c/Astro_Boy_v01_p001-9.webp?ph=2788841bb6');
+    background-image: url('https://i.postimg.cc/Y9FNmw3s/61-Okw-N42e-JL-SL500.jpg');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
@@ -199,7 +205,7 @@ footer {
 .img_opcion2 {
     width: 120px;
     height: 120px;
-    background-image: url('https://2788841bb6.cbaul-cdnwnd.com/76672681230ebf7d4fb1265e6a09136e/200000604-2a3702a373/700/13295104_1771856369715572_733707206_n.webp?ph=2788841bb6');
+    background-image: url('https://i.postimg.cc/RFx6yJ7g/backdrop-1920.jpg');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
@@ -210,7 +216,7 @@ footer {
 .img_opcion3 {
     width: 120px;
     height: 120px;
-    background-image: url('https://2788841bb6.cbaul-cdnwnd.com/76672681230ebf7d4fb1265e6a09136e/200000593-95d3b95d3f/logo%20astro%20boy%202003.webp?ph=2788841bb6');
+    background-image: url('https://i.postimg.cc/6Qv4Mfv7/Astro-boy.jpg');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
@@ -221,7 +227,7 @@ footer {
 .img_opcion4 {
     width: 120px;
     height: 120px;
-    background-image: url('https://2788841bb6.cbaul-cdnwnd.com/76672681230ebf7d4fb1265e6a09136e/200000592-945a8945ab/13318555_1771857369715472_401668545_n.webp?ph=2788841bb6');
+    background-image: url('https://i.postimg.cc/3xWvvTrF/1454354-6124astroboy.jpg');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
@@ -232,7 +238,7 @@ footer {
 .img_opcion5 {
     width: 120px;
     height: 120px;
-    background-image: url('https://2788841bb6.cbaul-cdnwnd.com/76672681230ebf7d4fb1265e6a09136e/200000607-f1ac2f1ac6/450/logo-2021071219112026900.webp?ph=2788841bb6');
+    background-image: url('https://i.postimg.cc/8c1FP8nW/logo-2024070813214129309.png');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
@@ -254,7 +260,7 @@ footer {
 .img_opcion7 {
     width: 120px;
     height: 120px;
-    background-image: url('https://2788841bb6.cbaul-cdnwnd.com/76672681230ebf7d4fb1265e6a09136e/200000767-9c85a9c85d/13282454_1771846429716566_107795732_o-6.webp?ph=2788841bb6');
+    background-image: url('https://i.postimg.cc/1RHn7tfK/videojuegos.png');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
@@ -265,7 +271,7 @@ footer {
 .img_opcion8 {
     width: 120px;
     height: 120px;
-    background-image: url('https://2788841bb6.cbaul-cdnwnd.com/76672681230ebf7d4fb1265e6a09136e/200000597-b6b27b6b2a/450/13293250_1771855206382355_144678678_n.webp?ph=2788841bb6');
+    background-image: url('https://i.postimg.cc/7hm55BpR/a9sjHuX.png');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
@@ -276,7 +282,7 @@ footer {
 .img_opcion9 {
     width: 120px;
     height: 120px;
-    background-image: url('https://2788841bb6.cbaul-cdnwnd.com/76672681230ebf7d4fb1265e6a09136e/200000596-950d5950d8/700/13293245_1771846246383251_1150274378_n.webp?ph=2788841bb6');
+    background-image: url('https://i.postimg.cc/4NRGcbJL/FZFVANy-Xw-AEg-Kt-S.png');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
@@ -287,7 +293,7 @@ footer {
 .img_opcion10 {
     width: 120px;
     height: 120px;
-    background-image: url('https://2788841bb6.cbaul-cdnwnd.com/76672681230ebf7d4fb1265e6a09136e/200000606-9a8869a889/450/13285838_1771858473048695_1009424506_n.webp?ph=2788841bb6');
+    background-image: url('https://i.postimg.cc/xdNYHsbZ/keyvisual1.jpg');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
@@ -298,7 +304,7 @@ footer {
 .img_opcion11 {
     width: 120px;
     height: 120px;
-    background-image: url('https://2788841bb6.cbaul-cdnwnd.com/76672681230ebf7d4fb1265e6a09136e/200000015-57ec358e5c/450/11403868_900840496642617_1462977544_n.gif?ph=2788841bb6');
+    background-image: url('https://i.postimg.cc/V6wvDQwT/11403868-900840496642617-1462977544-n.gif');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
@@ -309,7 +315,7 @@ footer {
 .img_opcion12 {
     width: 120px;
     height: 120px;
-    background-image: url('https://2788841bb6.cbaul-cdnwnd.com/76672681230ebf7d4fb1265e6a09136e/200000603-934d5934d9/IMG-0052.webp?ph=2788841bb6');
+    background-image: url('https://i.postimg.cc/8CMsRk2M/Screenshot-2019-07-02-Pegatina-Camiseta-astroboy-de-estilo-japon-s-de-Matt-Worthington.png');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
@@ -359,7 +365,7 @@ footer {
 
 .portada2-serie-2003 {
     width: 100%;
-    height: 900px;
+    height: 950px;
     background-color: #29458f;
     display: flex;
     flex-direction: column;
@@ -1126,9 +1132,31 @@ button   {
     text-decoration: none;
     color: #333;
     font-weight: bold;
+    font-family: Roboto, sans-serif;
   }
   
   .social-share a:hover {
     background-color: #ccc;
+  }
+
+
+  /* Diseño para pantallas menores a 768px (móviles) */
+@media screen and (max-width: 768px) {
+    body {
+      margin: 10px;
+      background-color: #fff;
+    }
+  
+    h1 {
+      font-size: 28px;
+      text-align: center;
+    }
+  
+    .contenedor {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    
   }
   
