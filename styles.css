@@ -1140,23 +1140,24 @@ button   {
   }
 
 
-  /* Diseño para pantallas menores a 768px (móviles) */
-@media screen and (max-width: 768px) {
-    body {
-      margin: 10px;
-      background-color: #fff;
-    }
-  
+  @media (max-width: 768px) {
+    /* móviles y tablets */
+
     h1 {
-      font-size: 28px;
-      text-align: center;
-    }
-  
-    .contenedor {
-      flex-direction: column;
-      align-items: center;
+        font-size: 45px;
     }
 
-    
+    .portada1 {
+        background-image: url("PortadaInicio1.webp");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 710px;
+        background-position: center;
+    }
+
+    .titulo1 {
+        margin-top: 420px;
+        text-align: center;
+    }
   }
   
