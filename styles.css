@@ -1144,7 +1144,11 @@ button   {
     /* móviles y tablets */
 
     h1 {
-        font-size: 45px;
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 35px;
     }
 
     .portada1 {
@@ -1153,6 +1157,15 @@ button   {
         background-repeat: no-repeat;
         height: 710px;
         background-position: center;
+    }
+
+    .portada2 {
+        width: 100%;
+        height: 3010px;
+        background-image: url(PortadaInicio2.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
     }
 
     .titulo1 {
@@ -1192,6 +1205,9 @@ button   {
         box-shadow: none;
     }
 
+    .redes {
+        padding: 0;
+    }
 
   }
   
