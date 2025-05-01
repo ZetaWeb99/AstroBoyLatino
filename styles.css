@@ -1159,5 +1159,39 @@ button   {
         margin-top: 420px;
         text-align: center;
     }
+
+    .opcion1 {
+        transform: none;
+        background-color: inherit;
+        color: wheat;
+        box-shadow: none;
+
+    }
+
+    .opcion1:hover {
+        transform: none;
+        background-color: inherit;
+        color: wheat;
+        box-shadow: none;
+
+    }
+
+    .opcion1 h3,
+    .opcion1 h4 {
+        transform: none;
+        background-color: inherit;
+        color: wheat;
+        box-shadow: none;
+    }
+
+    .opcion1:hover h3,
+    .opcion1:hover h4 {
+        transform: none;
+        background-color: inherit;
+        color: wheat;
+        box-shadow: none;
+    }
+
+
   }
   
