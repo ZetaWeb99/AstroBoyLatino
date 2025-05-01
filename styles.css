@@ -1139,10 +1139,48 @@ button   {
     background-color: #ccc;
   }
 
-  
+  /* menu hamburguesa */
+
   .navbar {
-    display: none;
+    background-color: #333;
+    padding: 0 10px 0 10px;
+    position: relative;
   }
+  
+  .hamburger {
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    display: none; /* Oculto en escritorio */
+  }
+  
+  .nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: none; /* Oculto por defecto */
+    flex-direction: column;
+    background-color: #333;
+  }
+  
+  /* Mostrar menú cuando se activa (solo móviles) */
+  .nav-links.active {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .nav-links li {
+    margin: 10px 0;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+  }
+
 
   @media (max-width: 768px) {
     /* móviles y tablets */
@@ -1230,10 +1268,6 @@ button   {
         justify-content: center;
     }
 
-    .hamburger {
-        display: block;
-      }
-
     .lista1 {
         display: none
       }
@@ -1245,47 +1279,19 @@ button   {
     .titulo1 {
         margin: 0;
       }
-
-      .navbar {
-        background-color: #333;
-        padding: 10px;
-        position: relative;
-      }
-      
+     
       .hamburger {
-        font-size: 30px;
-        color: white;
-        cursor: pointer;
-        display: none; /* Oculto por defecto */
+        display: block; /* Mostrar botón hamburguesa */
       }
-      
+    
       .nav-links {
-        list-style: none;
-        padding: 0;
-        margin: 10px 0 0;
-        display: none;
-        background-color: #333;
-      }
-      
-      .nav-links li {
-        margin: 10px 0;
-      }
-      
-      .nav-links a {
-        color: white;
-        text-decoration: none;
-        padding: 10px;
-        display: block;
+        display: none; /* Menú oculto inicialmente */
         font-family: sans-serif;
       }
-      
-      /* Mostrar el menú cuando está activo */
+    
       .nav-links.active {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        font-family: sans-serif;
-      }
+        display: flex; /* Menú visible si se activa */
+      }  
 
   }
   
