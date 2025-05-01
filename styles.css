@@ -1217,5 +1217,9 @@ button   {
         flex-wrap: wrap;
     }
 
+    .derechos {
+        padding: 0;
+    }
+
   }
   
