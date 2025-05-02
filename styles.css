@@ -1181,16 +1181,24 @@ button   {
     display: block;
   }
 
+  .img-ep-mov {
+    display: none;
+}
+
 
   @media (max-width: 768px) {
     /* móviles y tablets */
 
     h1 {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     h2 {
-        font-size: 30px;
+        font-size: 25px;
+    }
+
+    .linea_inicio {
+        display: none;
     }
 
     .portada1 {
@@ -1272,9 +1280,7 @@ button   {
         display: none
       }
 
-    hr {
-        display: none
-      }
+
 
     .titulo1 {
         margin: 0;
@@ -1293,5 +1299,692 @@ button   {
         display: flex; /* Menú visible si se activa */
       }  
 
+    .portada1-serie-2003 {
+        background-color: black;
+        height: 95px;
+    }
+    
+    .titulo1-serie-2003 {
+        margin-top: 0;
+    }
+
+    .img_opcion_series_1 {
+        width: 372px;
+        height: 215px;
+        background-image: url(https://comics2film.com/images/1056/594/1/astro-boy-1980.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    .img_opcion_series_2 {
+        width: 372px;
+        height: 215px;
+        background-image: url(https://static1.cbrimages.com/wordpress/wp-content/uploads/2020/03/Astro-Boy-SM.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    .opciones-series {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .opcion1-series {
+        width: 674px;
+        height: 285px;
+    }
+
+    .opcion1-series:hover {
+        transform: none;
+        background-color: inherit;
+        color: wheat;
+        box-shadow: none;
+    }
+
+    .series-menu {
+        background-color: #31333E;
+        height: 720px;
+    }
+
+    .lista_ep {
+        display: none;
+    }
+
+    .desc-ep1 {
+        display: none;
+    }
+
+    .img-ep-mov1 {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/fL6bnGsq/capitulo-1.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    .img-ep-mov2 {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/SQMs7xLB/capitulo-2.png');
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .img-ep-mov3 {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/przL2sXW/capitulo-3.png');
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .img-ep-mov4 {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/Hs1LS1BV/capitulo-4.png');
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .img-ep-mov5 {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/L6k8wQbv/capitulo-5.png');
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .img-ep-mov6 {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/RZXVV69H/capitulo-6.png');
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .img-ep-mov7 {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/QMCNB8xn/capitulo-7.png');
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .img-ep-mov8 {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/7ZxZkMv4/capitulo-8.png');
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .img-ep-mov9 {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/s2Lj7kMf/capitulo-9.png');
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .img-ep-mov10 {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/WzGsRtXt/capitulo-10.png');
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .img-ep-mov11 {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/cCyd5f7V/capitulo-11.png');
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .img-ep-mov12 {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/Vsnf0Hm1/capitulo-12.png');
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .img-ep-mov13 {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/hPnSLbtm/capitulo-13.png');
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .img-ep-mov14 {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/rF9qQ0DP/capitulo-14.png');
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .img-ep-mov15 {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/XY74hjF7/capitulo-15.png');
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .img-ep-mov16 {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/Z574zGFP/capitulo-16.png');
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .img-ep-mov17 {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/HLFmVbNV/capitulo-17.png');
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .img-ep-mov18 {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/50vVv6cp/capitulo-18.png');
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .img-ep-mov19 {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/wMpdkggz/capitulo-19.png');
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .img-ep-mov20 {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/3NFQSVxv/capitulo-20.png');
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .img-ep-mov21{
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/66rKp2fp/capitulo-21.png');
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .img-ep-mov22 {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/X7nbGjsc/capitulo-22.png');
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .img-ep-mov23 {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/Hkx1zSDr/capitulo-23.png');
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .img-ep-mov24 {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/CLJVb3ty/capitulo-24.png');
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .img-ep-mov25 {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/HkhDhQdB/capitulo-25.png');
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .img-ep-mov26 {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/8CfQQjCD/capitulo-26.png');
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .img-ep-mov27 {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/vBRRQb1n/capitulo-27.png');
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .img-ep-mov28 {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/bJ17rWbB/capitulo-28.png');
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .img-ep-mov29 {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/cCZVnhB4/capitulo-29.png');
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .img-ep-mov30 {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/wMVncNw5/capitulo-30.png');
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .img-ep-mov31 {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/qBxfTfpt/capitulo-31.png');
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .img-ep-mov32 {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/gkgfxvXm/capitulo-32.png');
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .img-ep-mov33 {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/HkjFXVX5/capitulo-33.png');
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .img-ep-mov34 {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/htw6rc1Y/capitulo-34.png');
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .img-ep-mov35 {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/xCHgDp4j/capitulo-35.png');
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .img-ep-mov36 {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/fyNCw7Gc/capitulo-36.png');
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .img-ep-mov37 {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/446wWMcB/capitulo-37.png');
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .img-ep-mov38 {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/0j0frMvL/capitulo-38.png');
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .img-ep-mov39 {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/YqtRZ3fk/capitulo-39.png');
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .img-ep-mov40 {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/wTF2pm0N/capitulo-40.png');
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .img-ep-mov41 {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/zGBjXGcc/capitulo-41.png');
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .img-ep-mov42 {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/t4Mz1H0C/capitulo-42.png');
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .img-ep-mov43 {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/g0LH8Bdy/capitulo-43.png');
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .img-ep-mov44 {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/Ss07r7NB/capitulo-44.png');
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .img-ep-mov45 {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/d18RSkhL/capitulo-45.png');
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .img-ep-mov46 {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/MHq0k6Bt/capitulo-46.png');
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .img-ep-mov47 {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/kGsQq0FC/capitulo-47.png');
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .img-ep-mov48 {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/qBxXsKfF/capitulo-48.png');
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .img-ep-mov49 {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/rFyGQpMw/capitulo-49.png');
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .img-ep-mov50 {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/8PyR3VzB/capitulo-50.png');
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .img-ep-mov51 {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/pLpfM19N/capitulo-51.png');
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .img-ep-mov52 {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/8z9hpBW7/capitulo-52.png');
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    .lista-1980 {
+        height: 320px;
+        background-color: #2084e554;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .img-ep1, .img-ep2, .img-ep3, .img-ep4, .img-ep5 ,.img-ep6, .img-ep7, .img-ep8, .img-ep9, .img-ep10,
+    .img-ep11, .img-ep12, .img-ep13, .img-ep14, .img-ep15, .img-ep16, .img-ep17, .img-ep18, .img-ep19, .img-ep20,
+    .img-ep21, .img-ep22, .img-ep23, .img-ep24, .img-ep25, .img-ep26, .img-ep27, .img-ep28, .img-ep29, .img-ep30,
+    .img-ep31, .img-ep32, .img-ep33, .img-ep34, .img-ep35, .img-ep36, .img-ep37, .img-ep38, .img-ep39, .img-ep40,
+    .img-ep41, .img-ep42, .img-ep43, .img-ep44, .img-ep45, .img-ep46, .img-ep47, .img-ep48, .img-ep49, .img-ep50,
+    .img-ep51, .img-ep52
+    {
+        display: none;
+    }
+    
+
+    .img-ep-mov {
+        display: block;
+    }
+
+    .titulo2-serie-2003 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 5px;
+    }
+
+    button {
+        padding: 0;
+
+    }
+
+    .portada2-serie-2003 {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 0;
+        height: 475px;
+    }
+
+    .serie-2003-1 {
+        width: 360px;
+        height: 202px;
+    }
+    
   }
   
