@@ -65,6 +65,39 @@ h4 {
     font-size: 15px;
 }
 
+
+        /* 🔍 Estilo buscador */
+        .search-container {
+            position: relative;
+            display: inline-block;
+            margin-left: 15px;
+        }
+        #buscador {
+            padding: 5px 8px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+        .search-results {
+            position: absolute;
+            background: #000000;
+            border: 1px solid #34cbcb;
+            border-radius: 5px;
+            width: 200px;
+            top: 35px;
+            left: 0;
+            z-index: 1000;
+            display: none;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+        .search-item {
+            padding: 6px 8px;
+            cursor: pointer;
+        }
+        .search-item:hover {
+            background-color: #4c6b76;
+        }
+
 footer {
     background-color: black;
 }
@@ -345,6 +378,17 @@ footer {
     margin-bottom: 10px;
 }
 
+.img_opcion_series_3 {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/dtsKtk42/Pluto-Key-Visual-3-oct-1-e1696323615980.webp');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
 /*episodios 2003*/
 
 .portada1-serie-2003 {
@@ -383,13 +427,13 @@ footer {
 
 .series-menu {
     background-color: #31333E;
-    height: 556px;
+    height: 900px;
 }
 
 .opciones-series {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
 }
@@ -1007,7 +1051,97 @@ footer {
     margin-bottom: 10px;
 }
 
-/* lista de diseño de miniaturas de 1980 - fin*/
+/* lista de diseño de miniaturas de 1980 - fin - Lista de diseño de miniaturas de Pluto*/
+
+.img-ep1-pluto {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/DZznpSHd/pluto1.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep2-pluto {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/mkzRR0bP/pluto2.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep3-pluto {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/Qd4398HF/pluto3.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep4-pluto {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/qMG0rXrX/pluto4.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep5-pluto {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/6p5Kp25s/pluto5.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep6-pluto {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/BQ3sR7rn/pluto6.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep7-pluto {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/xdBV56GY/pluto7.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-ep8-pluto {
+    width: 674px;
+    height: 380px;
+    background-image: url('https://i.postimg.cc/xdXSLwzt/pluto8.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/*Lista de diseño de miniaturas de Pluto - Fin*/
 
 .desc-ep1 {
     display: flex;
