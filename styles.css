@@ -1346,7 +1346,7 @@ button   {
     .portada2 {
         width: 100%;
         height: 3020px;
-        background-image: url(PortadaInicio2.jpg);
+        background-image: url("PortadaInicio2.jpg");
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
@@ -1464,6 +1464,17 @@ button   {
         margin-bottom: 10px;
     }
 
+    .img_opcion_series_3 {
+        width: 322px;
+        height: 215px;
+        background-image: url(https://i.postimg.cc/dtsKtk42/Pluto-Key-Visual-3-oct-1-e1696323615980.webp);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
     .opciones-series {
         display: flex;
         flex-direction: row;
@@ -1486,7 +1497,7 @@ button   {
 
     .series-menu {
         background-color: #31333E;
-        height: 720px;
+        height: 980px;
     }
 
     .lista_ep {
@@ -1496,6 +1507,98 @@ button   {
     .desc-ep1 {
         display: none;
     }
+
+/* img serie pluto inicio */
+
+    .img-ep-mov1-pluto {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/DZznpSHd/pluto1.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .img-ep-mov2-pluto {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/mkzRR0bP/pluto2.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    .img-ep-mov3-pluto {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/Qd4398HF/pluto3.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    .img-ep-mov4-pluto {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/qMG0rXrX/pluto4.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    .img-ep-mov5-pluto {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/6p5Kp25s/pluto5.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    .img-ep-mov6-pluto {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/BQ3sR7rn/pluto6.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    .img-ep-mov7-pluto {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/xdBV56GY/pluto7.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    .img-ep-mov8-pluto {
+        width: 385px;
+        height: 224px;
+        background-image: url('https://i.postimg.cc/xdXSLwzt/pluto8.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+/* img serie pluto fin */
 
     .img-ep-mov1 {
         width: 385px;
@@ -2083,7 +2186,7 @@ button   {
     .img-ep21, .img-ep22, .img-ep23, .img-ep24, .img-ep25, .img-ep26, .img-ep27, .img-ep28, .img-ep29, .img-ep30,
     .img-ep31, .img-ep32, .img-ep33, .img-ep34, .img-ep35, .img-ep36, .img-ep37, .img-ep38, .img-ep39, .img-ep40,
     .img-ep41, .img-ep42, .img-ep43, .img-ep44, .img-ep45, .img-ep46, .img-ep47, .img-ep48, .img-ep49, .img-ep50,
-    .img-ep51, .img-ep52
+    .img-ep51, .img-ep52, .img-ep1-pluto, .img-ep2-pluto, .img-ep3-pluto, .img-ep4-pluto, .img-ep5-pluto, .img-ep6-pluto, .img-ep7-pluto, .img-ep8-pluto
     {
         display: none;
     }
